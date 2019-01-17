@@ -956,7 +956,7 @@ td, th {
     top: 40px;
     right: 0;
     background: #4a4fad;
-    padding: 10px 10px;
+    padding: 10px 20px;
   }
   .default-header .main-menu a {
     margin: 5px 20px !important;
@@ -975,9 +975,9 @@ td, th {
 }
 
 .is-sticky .sticky-header {
-  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
-  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
-  background: linear-gradient(to right, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
+  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(60, 64, 143, 0.62) 100%);
+  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(60, 64, 143, 0.62) 100%);
+  background: linear-gradient(to right, rgba(60, 64, 143, 0.62) 0%, rgba(60, 64, 143, 0.62) 100%);
 }
 
 .search {
