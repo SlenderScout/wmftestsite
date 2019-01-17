@@ -25,8 +25,8 @@ $(document).ready(function(){
      $(".mobile-btn").on('click', function(e){
         e.preventDefault();
         $(".main-menu").slideToggle();
-        $("span", this).toggleClass("lnr-menu lnr-cross");
-        $(".main-menu").addClass('mobile-menu');
+      //  $("span", this).toggleClass("lnr-menu lnr-cross");
+       // $(".main-menu").addClass('mobile-menu');
     });
      $(".main-menu li a").on('click', function(e){
         e.preventDefault();
