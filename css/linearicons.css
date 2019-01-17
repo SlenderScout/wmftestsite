@@ -11,13 +11,11 @@
 }
 
 .lnr {
-	font-family: 'Linearicons-Free';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+	display: inline-block;
+  	fill: currentColor;
+  	width: 1em;
+  	height: 1em;
+  	vertical-align: -0.05em;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -364,7 +362,7 @@
 	content: "\e870";
 }
 .lnr-menu:before {
-	content: "\e871";
+	font-size: 10px;
 }
 .lnr-list:before {
 	content: "\e872";
