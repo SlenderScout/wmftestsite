@@ -925,7 +925,7 @@ td, th {
   color: rgba(255, 255, 255, 0.5);
   margin: 0 20px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @media (max-width: 991px) {
