@@ -975,9 +975,9 @@ td, th {
 }
 
 .is-sticky .sticky-header {
-  background: -moz-linear-gradient(left, rgba(79,136,200, 0.62) 0%, rgba(79,136,200, 0.62) 100%);
-  background: -webkit-linear-gradient(left, rgba(79,136,200, 0.62) 0%, rgba(79,136,200, 0.62) 100%);
-  background: linear-gradient(to right, rgba(79,136,200, 0.62) 0%, rgba(79,136,200, 0.62) 100%);
+  background: -moz-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: -webkit-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: linear-gradient(to right, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
 }
 
 .search {
@@ -1034,9 +1034,10 @@ banner should be 1920 x 900 px*/
 }
 
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
-  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
-  background: linear-gradient(to right, rgba(60, 64, 143, 0.62) 0%, rgba(91, 97, 207, 0.62) 100%);
+  background: -moz-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: -webkit-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: linear-gradient(to right, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  }
 
 }
 
