@@ -173,8 +173,8 @@ a.content__text-link[data-fx="1"]:hover::after {
 
 .hover-reveal {
 	position: fixed;
-	width: 200px;
-	height: 150px;
+	width: 500px;
+	height: 400px;
 	top: 0;
 	left: 0;
 	pointer-events: none;
