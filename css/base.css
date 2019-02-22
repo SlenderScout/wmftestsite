@@ -183,7 +183,7 @@ a.content__text-link[data-fx="1"]:hover::after {
 
 .hover-reveal__inner,
 .hover-reveal__img {
-	width: 100%;
+	width: 110%;
 	height: 100%;
 	position: relative;
 }
