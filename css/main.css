@@ -132,7 +132,7 @@ h1, .h1 {
   h1, .h1 {
     font-size: 25px;
   }
-}
+}*/
 
 h2, .h2 {
   font-size: 30px;
@@ -935,7 +935,7 @@ td, th {
 
 @media (max-width: 991px) {
   .default-header nav .main-menu a {
-    margin: 0 0px;
+    margin: 0 15px;
   }
 }
 
