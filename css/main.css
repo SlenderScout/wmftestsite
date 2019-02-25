@@ -49,7 +49,7 @@ body {
 
 ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 0 10px 10px 0;
   list-style: none;
 }
 
@@ -132,7 +132,7 @@ h1, .h1 {
   h1, .h1 {
     font-size: 25px;
   }
-}*/
+}
 
 h2, .h2 {
   font-size: 30px;
