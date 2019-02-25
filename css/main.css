@@ -930,7 +930,7 @@ td, th {
 
 @media (max-width: 991px) {
   .default-header nav .main-menu a {
-    margin: 0 5px;
+    margin: 0 0px;
   }
 }
 
