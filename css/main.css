@@ -718,7 +718,7 @@ td, th {
   background: #f9fafc;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .no-flex-xs {
     display: block !important;
   }
