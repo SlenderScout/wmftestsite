@@ -73,6 +73,11 @@ a:focus {
 	color: var(--color-link-hover);
 }
 
+@media (hover: none) {
+   a:hover {
+
+   }
+}
 
 main {
 	position: relative;
@@ -155,6 +160,7 @@ a.content__text-link[data-fx="1"]::after {
 	transition: transform 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000);
 }
 
+
 a.content__text-link[data-fx="1"]::after {
 	bottom: 0;
 }
@@ -163,6 +169,7 @@ a.content__text-link[data-fx="1"]::after {
 a.content__text-link[data-fx="1"]:hover::after {
 	transform: scale3d(1,1,1)
 }
+
 
 @keyframes loop {
 	0% { transform-origin: 0% 50%; transform: scale3d(0,1,1); }
@@ -186,6 +193,15 @@ a.content__text-link[data-fx="1"]:hover::after {
 	width: 110%;
 	height: 100%;
 	position: relative;
+}
+
+@media (max-width: 600px) {
+  .hover-reveal__img {
+    width: 20%;
+  	height: 20%;
+  	position: relative;
+  }
+
 }
 
 .hover-reveal__deco {
@@ -234,11 +250,6 @@ a.content__text-link[data-fx="1"]:hover::after {
 		padding: 0;
 		justify-self: end;
 	}
-	.github {
-		grid-area: github;
-		justify-self: end;
-		margin: 0;
-	}
 	.frame a {
 		pointer-events: auto;
 	}
@@ -259,3 +270,8 @@ a.content__text-link[data-fx="1"]:hover::after {
 		grid-column: span 5;
 	}
 }
+
+  .photo {
+    max-width: 200px;
+    max-height: 200px;
+  }
