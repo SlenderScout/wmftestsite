@@ -980,9 +980,9 @@ td, th {
 }
 
 .is-sticky .sticky-header {
-  background: -moz-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
-  background: -webkit-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
-  background: linear-gradient(to right, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(28, 73, 175, 0.74) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(28, 73, 175, 0.74) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(28, 73, 175, 0.74) 100%);
 }
 
 .search {
@@ -1039,9 +1039,9 @@ banner should be 1920 x 900 px*/
 }
 
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
-  background: -webkit-linear-gradient(left, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
-  background: linear-gradient(to right, rgba(27, 106, 194, 0.89) 0%, rgba(27, 106, 194, 0.89) 100%);
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
   }
 
 }
@@ -1051,7 +1051,7 @@ banner should be 1920 x 900 px*/
 }
 
 .signle-service figcaption {
-  background: #fff;
+  background: #9c5757;
   padding: 40px 20px;
 }
 

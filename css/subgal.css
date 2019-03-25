@@ -3,7 +3,10 @@ html, body {
   font-family: 'Poppins', serif;
   padding: 0;
   margin: 0;
-  background: #ffffff;
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+
 }
 
 /* line 8, ../sass/demo.scss */
@@ -19,9 +22,9 @@ a {
 .primary-btn {
   line-height: 40px;
   padding: 0 20px;
-  border-radius: 20px;
-  background: transparent;
-  border: 1px solid #00ff8c;
+  border-radius: 5px;
+  background: #9c5757;
+  border: 1px solid #9c5757;
   color: #222222;
   display: inline-block;
   font-weight: 600;
@@ -47,7 +50,7 @@ a {
 }
 
 .primary-btn:hover {
-  background: #00ff8c;
+  background: #1c49af;
   color: #fff;
   box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
 }
@@ -56,7 +59,9 @@ a {
   float: left;
   width: 100%;
   height: 120px;
-  background-color: rgba(255, 138, 0, 0.95);
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
 
 }
 
@@ -75,7 +80,9 @@ a {
   float: left;
   width: 25%;
   height: auto;
-  border: 3px solid #fff;
+  border: 10px solid rgba(115, 115, 115, 0);
+
+
   -webkit-transition: -webkit-transform .15s ease;
   -moz-transition: -moz-transform .15s ease;
   -o-transition: -o-transform .15s ease;
