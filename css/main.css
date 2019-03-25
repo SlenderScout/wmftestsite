@@ -964,7 +964,7 @@ td, th {
     position: absolute;
     top: 40px;
     right: 0;
-    background: #4f88c8;
+    background: rgba(131, 129, 129, 0.88) ;
     padding: 10px 20px;
   }
   .default-header .main-menu a {
@@ -1127,7 +1127,9 @@ banner should be 1920 x 900 px*/
 }
 
 .single-product:hover {
-  background: #00ff8c;
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
 }
 
 .single-product:hover .icon span, .single-product:hover .desc h4, .single-product:hover .desc p {
@@ -1578,5 +1580,7 @@ footer .footer-nav li a:hover {
 }
 
 .modal-header{
-  background-color: rgba(255, 0, 0, 0.5);
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
 }
