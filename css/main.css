@@ -949,6 +949,10 @@ td, th {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.rules-lnr {
+  font-size: 30px;
+}
+
 @media (max-width: 767px) {
   .default-header .main-menu {
     -webkit-box-direction: normal;
@@ -1571,4 +1575,8 @@ footer .footer-nav li a:hover {
 
 .footer-bottom .footer-text a:hover {
   color: #00ff8c;
+}
+
+.modal-header{
+  background-color: rgba(255, 0, 0, 0.5);
 }

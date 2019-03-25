@@ -29,7 +29,8 @@
 	content: "\e801";
 }
 .lnr-pencil:before {
-	content: "\e802";
+	font-size: 30px;
+
 }
 .lnr-magic-wand:before {
 	content: "\e803";
@@ -110,7 +111,7 @@
 	content: "\e81c";
 }
 .lnr-file-empty:before {
-	content: "\e81d";
+	font-size: 20px;
 }
 .lnr-file-add:before {
 	content: "\e81e";
@@ -137,7 +138,7 @@
 	content: "\e825";
 }
 .lnr-camera:before {
-	content: "\e826";
+	font-size: 20px;
 }
 .lnr-picture:before {
 	content: "\e827";
