@@ -72,7 +72,9 @@ a:hover,
 a:focus {
 	color: var(--color-link-hover);
 }
-
+a.accent {
+  color: #e47073;
+}
 @media (hover: none) {
    a:hover {
 
@@ -261,7 +263,7 @@ a.content__text-link[data-fx="1"]:hover::after {
 		display: grid;
 		grid-template-columns: repeat(auto-fill,100px);
 		margin: 0 0rem 0 4rem;
-		padding-top: 20vh;
+		padding-top: 5vh;
 		max-width: 1200px;
 		min-height: 10vh;
 		text-align: auto;

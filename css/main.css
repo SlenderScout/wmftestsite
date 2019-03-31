@@ -77,7 +77,9 @@ a, a:focus, a:hover {
   outline: 0;
   color: #777777;
 }
-
+a.accent {
+  color: #e47073;
+}
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -563,7 +565,9 @@ td, th {
 .section-half {
   padding: 75px 0;
 }
-
+.section-full-gal {
+  padding-top: 150px;
+}
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -951,6 +955,9 @@ td, th {
 
 .rules-lnr {
   font-size: 30px;
+}
+.gallery-lnr {
+  font-size: 18px;
 }
 
 @media (max-width: 767px) {
