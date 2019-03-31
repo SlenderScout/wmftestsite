@@ -87,9 +87,19 @@ a {
   margin-left: -2px;
   justify-content: center !important;
 }
+.gala-justify-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
 
 .accent {
   color: #1c49af;
+}
+.accent-obrady {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
 }
 .text-white {
   color: #fff;
@@ -142,4 +152,9 @@ a {
 /* line 65, ../sass/demo.scss */
 .align-center {
   text-align: center;
+}
+.modal-header{
+  background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+  background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
 }
