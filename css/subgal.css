@@ -66,9 +66,14 @@ a {
 }
 
 .clear-middle {
-  float: left;
+  float: inherit;
   width: 100%;
   height: 120px;
+}
+.clear-left {
+  float:left;
+  width: 10%;
+  height: 1px;
 }
 
 .subgal-justify-center {
@@ -95,6 +100,7 @@ a {
 
 .accent {
   color: #1c49af;
+
 }
 .accent-obrady {
   color: #ffffff;
