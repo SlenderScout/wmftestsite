@@ -10,7 +10,7 @@ html {
 body {
   _width: 70%;
   color: #888;
-  font: 14px/20px Helvetica, Arial, sans-serif;
+  font-family: 'Abhaya Libre', sans-serif;
   margin: 20px auto 0;
   max-width: 800px;
   text-align: center;

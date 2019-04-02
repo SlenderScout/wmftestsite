@@ -1,6 +1,6 @@
 /* line 1, ../sass/demo.scss */
 html, body {
-  font-family: 'Poppins', serif;
+  font-family: 'Abhaya Libre', sans-serif;
   padding: 0;
   margin: 0;
   background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
@@ -97,6 +97,9 @@ a {
   flex-wrap: wrap;
   justify-content: center !important;
 }
+.text-center {
+  text-align: center !important;
+}
 
 .accent {
   color: #1c49af;
@@ -163,4 +166,14 @@ a {
   background: -moz-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
   background: -webkit-linear-gradient(left, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
   background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
+}
+
+.rules-lnr {
+  font-size: 30px;
+}
+.gallery-lnr {
+  font-size: 18px;
+}
+svg:not(:root) {
+    overflow: hidden;
 }

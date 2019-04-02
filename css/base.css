@@ -16,7 +16,7 @@ body {
 	--color-blocktitle: #fff;
 	--color-blocktitle-hover: #ff4081;
 	--color-text: #767676;
-	font-family: Futura, "futura-pt", Arial, sans-serif;
+	font-family: 'Abhaya Libre', sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);

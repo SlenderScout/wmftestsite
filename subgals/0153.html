@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>0001 gallery</title>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='../dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<link href='../css/subgal.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="default-header">
+	</header>
+	<div class = "clear">
+
+				<a href="../gallery.html" class="primary-btn banner-btn">Powrót do galerii</a>
+
+	</div>
+	<div class="container">
+		<h1 class="align-center"></h1>
+		<div class="gallery">
+
+			<a href="../assets/0153/0153_01.jpg"><img src="../assets/0153/thumbs/0153_01.jpgthumb.jpg" alt="" title="Warszawski Szyk"/></a>
+			<a href="../assets/0153/0153_02.jpg"><img src="../assets/0153/thumbs/0153_02.jpgthumb.jpg" alt="" title="Kawiarniana Warszawa"/></a>
+			<a href="../assets/0153/0153_03.jpg"><img src="../assets/0153/thumbs/0153_03.jpgthumb.jpg" alt="" title="Codzienność"/></a>
+			<a href="../assets/0153/0153_04.jpg"><img src="../assets/0153/thumbs/0153_04.jpgthumb.jpg" alt="" title="Autorska interpretacja numeru startowego"/></a>
+
+			<a href="../assets/0153/0153_05.jpg"><img src="../assets/0153/thumbs/0153_05.jpgthumb.jpg" alt="" title="Aktywnie nad Wisłą"/></a>
+			<a href="../assets/0153/0153_06.jpg"><img src="../assets/0153/thumbs/0153_06.jpgthumb.jpg" alt="" title="Przyszłość"/></a>
+			<a href="../assets/0153/0153_07.jpg"><img src="../assets/0153/thumbs/0153_07.jpgthumb.jpg" alt="" title="Abstrakcja"/></a>
+			<a href="../assets/0153/0153_08.jpg"><img src="../assets/0153/thumbs/0153_08.jpgthumb.jpg" alt="" title="Dzielnica Wisła"/></a>
+
+			<a href="../assets/0153/0153_10.jpg"><img src="../assets/0153/thumbs/0153_10.jpgthumb.jpg" alt="" title="AHOJ!"/></a>
+			<a href="../assets/0153/0153_11.jpg"><img src="../assets/0153/thumbs/0153_11.jpgthumb.jpg" alt="" title="Historia"/></a>
+			<a href="../assets/0153/0153_12.jpg"><img src="../assets/0153/thumbs/0153_12.jpgthumb.jpg" alt="" title="GWAR"/></a>
+			<a href="../assets/0153/0153_09.jpg"><img src="../assets/0153/thumbs/0153_09.jpgthumb.jpg" alt="" title="Zabawa"/></a>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../dist/simple-lightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
+</body>
+</html>
