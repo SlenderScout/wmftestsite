@@ -262,7 +262,7 @@ a.content__text-link[data-fx="1"]:hover::after {
 		position: relative;
 		display: grid;
 		grid-template-columns: repeat(auto-fill,100px);
-		margin: 0 0rem 0 4rem;
+		margin: 0 auto 0 auto;
 		padding-top: 5vh;
 		max-width: 1200px;
 		min-height: 10vh;
