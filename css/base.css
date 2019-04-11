@@ -266,7 +266,6 @@ a.content__text-link[data-fx="1"]:hover::after {
 		padding-top: 5vh;
 		max-width: 1200px;
 		min-height: 10vh;
-		text-align: auto;
 	}
 	.content__text {
 		grid-column: span 5;
