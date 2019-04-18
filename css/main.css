@@ -1170,7 +1170,7 @@ banner should be 1920 x 900 px*/
   background: linear-gradient(to right, rgba(156, 87, 87, 0.89) 0%, rgba(49, 15, 214, 0.65) 100%);
   text-align: center;
   padding: 50px 100px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1179,6 +1179,7 @@ banner should be 1920 x 900 px*/
 
 .single-filter-content .overlay-bg-content p {
   margin: 0;
+
 }
 
 .single-filter-content .overlay-bg-content .line {
@@ -1189,7 +1190,7 @@ banner should be 1920 x 900 px*/
 }
 
 .single-filter-content:hover .overlay-bg-content {
-  opacity: 1;
+  opacity: 0.48;
 }
 
 .single-filter-content.content-1 {

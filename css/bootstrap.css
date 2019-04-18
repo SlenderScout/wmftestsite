@@ -4354,7 +4354,16 @@ button.close {
 
 .modal-dialog {
   position: relative;
-  width: auto;
+  width: 900px;
+  margin: 30px auto;
+}
+.modal-rules {
+    width: 900px;
+}
+
+.modal-dialog-rules {
+  position: relative;
+  width: 900px;
   margin: 10px;
 }
 
@@ -4430,9 +4439,18 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 450px;
+    margin: 30px auto;
+  }
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+@media (min-width: 400px) {
+  .modal-dialog {
+    max-width: auto;
     margin: 30px auto;
   }
   .modal-sm {
