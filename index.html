@@ -73,7 +73,10 @@
 					<div class="banner-content text-center">
 						<p class="text-uppercase text-white"></p>
 						<h1 class="text-uppercase text-white">WARSZAWSKI MARATON FOTOGRAFICZNY</h1>
+						<p class="text-uppercase text-white"></p>
+						<H2 class="text-uppercase text-white" id="timer"></h2>
 						<a href="https://warszawskimaratonfotograficzny2019.evenea.pl/" class="primary-btn banner-btn">Zapisz się</a>
+
 					</div>
 				</div>
 			</div>
@@ -269,6 +272,7 @@
 		</div>
 	</section>
 	<!-- End Product Area -->
+	<!-- Start Publish Area -->
 
 	<!-- Start shuffle Area -->
 	<section id="archive" class="section-full">
@@ -369,7 +373,7 @@
 	</section>
 	<!-- End shuffle Area -->
 	<!-- Start Team member Area -->
-	<!--	<section id="team" class="pb-150">
+	<!--<section id="team" class="pb-150">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -481,7 +485,7 @@
 					<div class="single-footer-widget">
 						<h6 class="text-white text-uppercase mb-20">Kontakt</h6>
 						<p>W razie pytań lub wątpliwości zaprasamy do kontaktu:</p>
-							<p><a href="mailto:wmf@greencaffenreo.pl">wmf@greencaffenero.pl</a></p>
+							<p ><a href="mailto:wmf@greencaffenreo.pl" class="accent">wmf@greencaffenero.pl</a></p>
 					</div>
 				</div>
 
@@ -500,6 +504,31 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 18, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  // Output the result in an element with id="demo"
+  document.getElementById("timer").innerHTML ="Do rozpoczcia maratonu ozostało: " + days + " dni ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 </body>
 
 </html>
