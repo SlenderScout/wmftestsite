@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>0059 gallery</title>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='../dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<link href='../css/subgal.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="default-header">
+	</header>
+	<div class = "clear">
+
+				<a href="../gallery2019.html" class="primary-btn banner-btn">Powrót do galerii</a>
+
+	</div>
+	<div class="container">
+		<h1 class="align-center"></h1>
+		<div class="gallery">
+
+			<a href="../assets2019/0059/0059_01.jpg"><img src="../assets2019/0059/thumbs/0059_01.jpg.jpg" alt="" title="Żagle Warszawskie"/></a>
+			<a href="../assets2019/0059/0059_02.jpg"><img src="../assets2019/0059/thumbs/0059_02.jpg.jpg" alt="" title="Autorska interpretacja numeru startowego"/></a>
+			<a href="../assets2019/0059/0059_03.jpg"><img src="../assets2019/0059/thumbs/0059_03.jpg.jpg" alt="" title="Inteligentna technologia"/></a>
+			<a href="../assets2019/0059/0059_04.jpg"><img src="../assets2019/0059/thumbs/0059_04.jpg.jpg" alt="" title="Wielkie perspektywy"/></a>
+
+			<a href="../assets2019/0059/0059_05.jpg"><img src="../assets2019/0059/thumbs/0059_05.jpg.jpg" alt="" title="Po stronie natury"/></a>
+			<a href="../assets2019/0059/0059_06.jpg"><img src="../assets2019/0059/thumbs/0059_06.jpg.jpg" alt="" title="Zwierze w mieście"/></a>
+			<a href="../assets2019/0059/0059_07.jpg"><img src="../assets2019/0059/thumbs/0059_07.jpg.jpg" alt="" title="Sztuka na ulicach"/></a>
+			<a href="../assets2019/0059/0059_08.jpg"><img src="../assets2019/0059/thumbs/0059_08.jpg.jpg" alt="" title="Miasto, którego nie ma"/></a>
+
+			<a href="../assets2019/0059/0059_09.jpg"><img src="../assets2019/0059/thumbs/0059_09.jpg.jpg" alt="" title="Kobieta w wielkim mieście"/></a>
+			<a href="../assets2019/0059/0059_10.jpg"><img src="../assets2019/0059/thumbs/0059_10.jpg.jpg" alt="" title="Naturalnie nad Wisłą"/></a>
+			<a href="../assets2019/0059/0059_11.jpg"><img src="../assets2019/0059/thumbs/0059_11.jpg.jpg" alt="" title="Hulaj noga"/></a>
+			<a href="../assets2019/0059/0059_12.jpg"><img src="../assets2019/0059/thumbs/0059_12.jpg.jpg" alt="" title="Młodym być i więcej nic"/></a>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../dist/simple-lightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
+</body>
+</html>
