@@ -75,6 +75,11 @@ a {
   width: 10%;
   height: 1px;
 }
+.clear-left-obrady {
+  float:left;
+  width: 16%;
+  height: 1px;
+}
 
 .subgal-justify-center {
   margin-top: 30px;
@@ -105,6 +110,12 @@ a {
   color: #1c49af;
 
 }
+a.accent-left{
+  color: #00ff8c;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .accent-obrady {
   color: #ffffff;
   font-weight: 500;
@@ -176,4 +187,32 @@ a {
 }
 svg:not(:root) {
     overflow: hidden;
+}
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+
+    /* customizable*/
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: #333;
+    border-radius: 10px;
+    /*box-shadow: 2px 2px 1px silver;*/
+}
+
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+
+    /* customizable */
+    background: rgba(156, 87, 87, 0.56);
+    margin-top: -50px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+[tooltip]:not([tooltip-persistent]):before {
+    pointer-events: none;
 }
