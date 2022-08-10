@@ -936,7 +936,7 @@ td, th {
 
 .default-header nav .main-menu a {
   display: inline-block;
-  color: rgba(171,160,234, 0.89);
+  color: rgba(171,160,234, 1);
   margin: 0 20px;
   text-transform: uppercase;
   font-size: 14px;
@@ -949,7 +949,7 @@ td, th {
 }
 
 .default-header nav .main-menu a:hover {
-  color: rgba(240,205,160, 0.65);
+  color: rgba(240,205,160, 1);
 }
 
 .default-header nav .mobile-btn {
