@@ -552,6 +552,9 @@ td, th {
 .text-white {
   color: #fff;
 }
+.text-main {
+  font-family: 'tan mon cheri';
+}
 
 .transition {
   -webkit-transition: all 0.3s ease 0s;
@@ -1697,17 +1700,15 @@ footer .footer-nav li a:hover {
     border-color: #adb5bd;
 }
 
-.social-icon li a {
-    color: #35404e;
-    border: 1px solid #35404e;
-    display: inline-block;
-    height: 32px;
-    text-align: center;
-    font-size: 15px;
-    width: 32px;
-    line-height: 30px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    overflow: hidden;
-    position: relative;
+.social-icon{
+    height: 70%;
+    width: 70%;
+}
+.pptk-img {
+  height: 40%;
+  width: 40%;
+}
+.itsa-img {
+  height: 80%;
+  width: 80%;
 }
