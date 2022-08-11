@@ -40,7 +40,7 @@
 
 body {
   color: #a7a7a7;
-  font-family: 'Abhaya Libre', sans-serif;
+  font-family: 'Tan-Mon';
   font-size: 17px;
   font-weight: 300;
   line-height: 1.5em;
@@ -89,6 +89,15 @@ a.accent {
   text-decoration: none;
   outline: 0;
 }
+@font-face {
+  font-family: 'Tan-Mon';
+  src: url('TAN - MON CHERI.eot'); /* IE9 Compat Modes */
+  src: url('TAN - MON CHERI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('TAN - MON CHERI.woff2') format('woff2'), /* Super Modern Browsers */
+       url('TAN - MON CHERI.woff') format('woff'), /* Pretty Modern Browsers */
+
+}
+
 
 .card-panel {
   margin: 0;
@@ -111,7 +120,8 @@ a.accent {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Tan-Mon';
+
   color: #222222;
   line-height: 1.5em;
   margin-bottom: 0;
@@ -123,7 +133,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Tan-Mon';
   font-weight: 600;
   color: #222222;
 }
@@ -553,7 +563,10 @@ td, th {
   color: #fff;
 }
 .text-main {
-  font-family: 'tan mon cheri';
+  font-family: 'Tan-Mon';
+  font-weight: 100;
+
+
 }
 
 .transition {
@@ -747,8 +760,8 @@ td, th {
   line-height: 40px;
   padding: 0 40px;
   border-radius: 20px;
-  background: transparent;
-  border: 1px solid #1c49af;
+  background: rgba(171,160,234, 0.89);
+  border: 1px solid rgba(171,160,234, 0.89);
   color: #222222;
   display: inline-block;
   font-weight: 600;
@@ -860,7 +873,7 @@ td, th {
 }
 
 .details-btn {
-  border: 1px solid #00ff8c;
+  border: 1px solid rgba(131, 57, 57, 0.53);
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -887,7 +900,7 @@ td, th {
 
 .details-btn:hover {
   width: 140px;
-  background: #00ff8c;
+  background: rgba(171,160,234, 0.89);
   box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
 }
 
