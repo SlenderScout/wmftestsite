@@ -40,7 +40,7 @@
 
 body {
   color: #a7a7a7;
-  font-family: 'Tan-Mon';
+  font-family: 'mon_cheri';
   font-size: 17px;
   font-weight: 300;
   line-height: 1.5em;
@@ -90,7 +90,7 @@ a.accent {
   outline: 0;
 }
 @font-face {
-  font-family: 'Tan-Mon';
+  font-family: 'mon_cheri';
   src: url('TAN - MON CHERI.eot'); /* IE9 Compat Modes */
   src: url('TAN - MON CHERI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('TAN - MON CHERI.woff2') format('woff2'), /* Super Modern Browsers */
@@ -120,7 +120,7 @@ a.accent {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: 'Tan-Mon';
+  font-family: 'mon_cheri';
 
   color: #222222;
   line-height: 1.5em;
@@ -133,7 +133,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: 'Tan-Mon';
+  font-family: 'mon_cheri';
   font-weight: 600;
   color: #222222;
 }
@@ -563,7 +563,7 @@ td, th {
   color: #fff;
 }
 .text-main {
-  font-family: 'Tan-Mon';
+  font-family: 'mon_cheri';
   font-weight: 100;
 
 
