@@ -6,6 +6,15 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+@font-face{
+  font-family: 'tanmon';
+  src: url('TAN - MON CHERI.eot'); /* IE9 Compat Modes */
+  src: url('TAN - MON CHERI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('TAN - MON CHERI.woff2') format('woff2'), /* Super Modern Browsers */
+       url('TAN - MON CHERI.woff') format('woff'), /* Pretty Modern Browsers */
+       url('TAN - MON CHERI.ttf') format('truetype');
+
+}
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #cccccc;
@@ -40,7 +49,7 @@
 
 body {
   color: #a7a7a7;
-  font-family: 'Tan-Mon';
+  font-family: 'tanmon';
   font-size: 17px;
   font-weight: 300;
   line-height: 1.5em;
@@ -89,14 +98,7 @@ a.accent {
   text-decoration: none;
   outline: 0;
 }
-@font-face {
-  font-family: 'Tan-Mon';
-  src: url('TAN - MON CHERI.eot'); /* IE9 Compat Modes */
-  src: url('TAN - MON CHERI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('TAN - MON CHERI.woff2') format('woff2'), /* Super Modern Browsers */
-       url('TAN - MON CHERI.woff') format('woff'), /* Pretty Modern Browsers */
 
-}
 
 
 .card-panel {
@@ -120,7 +122,7 @@ a.accent {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: 'Tan-Mon';
+  font-family: 'tanmon';
 
   color: #222222;
   line-height: 1.5em;
@@ -133,7 +135,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: 'Tan-Mon';
+  font-family: 'tanmon';
   font-weight: 600;
   color: #222222;
 }
@@ -563,7 +565,7 @@ td, th {
   color: #fff;
 }
 .text-main {
-  font-family: 'Tan-Mon';
+  font-family: 'tanmon';
   font-weight: 100;
 
 

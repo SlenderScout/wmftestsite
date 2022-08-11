@@ -11,14 +11,15 @@
     text-shadow: none !important;
     box-shadow: none !important;
   }
-  @font-face {
-      font-family:'Tan-Mon';
+/*  @font-face {
+      font-family:'tanmon';
       src: url('fonts/TAN - MON CHERI.eot');
       src: url('fonts/TAN - MON CHERI.eot?#iefix') format('embedded-opentype'),
            url('fonts/TAN - MON CHERI.woff') format('woff'),
       font-weight: normal;
 
   }
+  */
   a,
   a:visited {
     text-decoration: underline;
@@ -72,7 +73,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Tan-Mon';
+  font-family: 'tanmon';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -96,7 +97,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, 'Tan-Mon';
+  font-family: -apple-system, 'tanmon';
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -554,7 +555,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Tan-Mon", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "tanmon", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 code {
@@ -4482,7 +4483,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, 'Tan-Mon';
+  font-family: -apple-system, 'tanmon';
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -4596,7 +4597,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system,'Tan-Mon';
+  font-family: -apple-system,'tanmon';
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
