@@ -40,7 +40,7 @@
 
 body {
   color: #a7a7a7;
-  font-family: 'mon_cheri';
+  font-family: 'Poppins';
   font-size: 17px;
   font-weight: 300;
   line-height: 1.5em;
@@ -89,14 +89,6 @@ a.accent {
   text-decoration: none;
   outline: 0;
 }
-@font-face {
-  font-family: 'mon_cheri';
-  src: url('TAN - MON CHERI.eot'); /* IE9 Compat Modes */
-  src: url('TAN - MON CHERI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('TAN - MON CHERI.woff2') format('woff2'), /* Super Modern Browsers */
-       url('TAN - MON CHERI.woff') format('woff'), /* Pretty Modern Browsers */
-
-}
 
 
 .card-panel {
@@ -120,8 +112,7 @@ a.accent {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: 'mon_cheri';
-
+  font-family: 'Poppins';
   color: #222222;
   line-height: 1.5em;
   margin-bottom: 0;
@@ -133,7 +124,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: 'mon_cheri';
+  font-family: 'Poppins';
   font-weight: 600;
   color: #222222;
 }
@@ -171,6 +162,9 @@ h6, .h6 {
 
 td, th {
   border-radius: 0px;
+}
+.tanmon-text {
+  font-family: 'tanmon'
 }
 
 /**
@@ -563,8 +557,10 @@ td, th {
   color: #fff;
 }
 .text-main {
-  font-family: 'mon_cheri';
-  font-weight: 100;
+  font-family: 'tanmon';
+  font-weight: 600;
+  -webkit-text-stroke: 1px;
+
 
 
 }
