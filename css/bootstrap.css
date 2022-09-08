@@ -525,6 +525,10 @@ max-width: 100%;
 height: 400px;
 
 }
+.img-logo {
+  max-width: 50%;
+
+}
 
 .img-thumbnail {
   padding: 0.25rem;

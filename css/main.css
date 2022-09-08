@@ -1732,3 +1732,6 @@ footer .footer-nav li a:hover {
 .space {
   height: 50px;
 }
+.logo-size-small {
+  height: auto;
+}
